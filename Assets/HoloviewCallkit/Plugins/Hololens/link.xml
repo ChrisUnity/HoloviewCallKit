@@ -1,0 +1,15 @@
+<linker>
+       <assembly fullname="HoloviewCallKit" preserve="all"/>
+       <assembly fullname="Holoview.SDK" preserve="all"/>
+       <assembly fullname="M2Mqtt.WinRT" preserve="all"/>
+       <assembly fullname="Newtonsoft.Json" preserve="all"/>
+       <assembly fullname="Org.WebRtc" preserve="all"/>
+       <assembly fullname="PluginWin" preserve="all"/>
+       <assembly fullname="Qiniu" preserve="all"/>
+       <assembly fullname="WebSocket.UWP" preserve="all"/>
+       <assembly fullname="System.IO" preserve="all"/>
+       <assembly fullname="System.Net.Http" preserve="all"/>
+	   <assembly fullname="System">
+		 <type fullname="System.ComponentModel.TypeConverter" preserve="all" />
+	   </assembly>
+</linker>

@@ -1,0 +1,1760 @@
+fileFormatVersion: 2
+guid: b9128fe017850314a91db406dd8c1fb4
+timeCreated: 1508087884
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: body_low
+    100002: body_lowShape
+    100004: body_lowShape3
+    100006: body_mat
+    100008: civilian_ankle_lf_jnt
+    100010: civilian_ankle_rt_jnt
+    100012: civilian_ball_lf_jnt
+    100014: civilian_ball_rt_jnt
+    100016: civilian_bicep_lf_jnt
+    100018: civilian_bicep_rt_jnt
+    100020: civilian_clavicle_lf_jnt
+    100022: civilian_clavicle_rt_jnt
+    100024: civilian_COG_c_jnt
+    100026: civilian_elbow_lf_jnt
+    100028: civilian_elbow_rt_jnt
+    100030: civilian_eye_lf_jnt
+    100032: civilian_eye_rt_jnt
+    100034: civilian_eyebrowA_lf_jnt
+    100036: civilian_eyebrowA_rt_jnt
+    100038: civilian_eyebrowB_lf_jnt
+    100040: civilian_eyebrowB_rt_jnt
+    100042: civilian_eyebrowC_lf_jnt
+    100044: civilian_eyebrowC_rt_jnt
+    100046: civilian_eyelidDn_lf_jnt
+    100048: civilian_eyelidDn_rt_jnt
+    100050: civilian_eyelidUp_lf_jnt
+    100052: civilian_eyelidUp_rt_jnt
+    100054: civilian_forearm_lf_jnt
+    100056: civilian_forearm_rt_jnt
+    100058: civilian_head_c_jnt
+    100060: civilian_indexA_lf_jnt
+    100062: civilian_indexA_rt_jnt
+    100064: civilian_indexB_lf_jnt
+    100066: civilian_indexB_rt_jnt
+    100068: civilian_indexC_lf_jnt
+    100070: civilian_indexC_rt_jnt
+    100072: civilian_jaw_c_jnt
+    100074: civilian_knee_lf_jnt
+    100076: civilian_knee_rt_jnt
+    100078: civilian_middleA_lf_jnt
+    100080: civilian_middleA_rt_jnt
+    100082: civilian_middleB_lf_jnt
+    100084: civilian_middleB_rt_jnt
+    100086: civilian_middleC_lf_jnt
+    100088: civilian_middleC_rt_jnt
+    100090: civilian_neck_c_jnt
+    100092: civilian_pelvis_c_jnt
+    100094: civilian_pinkyA_lf_jnt
+    100096: civilian_pinkyA_rt_jnt
+    100098: civilian_pinkyB_lf_jnt
+    100100: civilian_pinkyB_rt_jnt
+    100102: civilian_pinkyC_lf_jnt
+    100104: civilian_pinkyC_rt_jnt
+    100106: civilian_ringA_lf_jnt
+    100108: civilian_ringA_rt_jnt
+    100110: civilian_ringB_lf_jnt
+    100112: civilian_ringB_rt_jnt
+    100114: civilian_ringC_lf_jnt
+    100116: civilian_ringC_rt_jnt
+    100118: civilian_root_jnt
+    100120: civilian_shoulder_lf_jnt
+    100122: civilian_shoulder_rt_jnt
+    100124: civilian_spineA_c_jnt
+    100126: civilian_spineB_c_jnt
+    100128: civilian_spineC_c_jnt
+    100130: civilian_spineD_c_jnt
+    100132: civilian_thigh_lf_jnt
+    100134: civilian_thigh_rt_jnt
+    100136: civilian_thumbA_lf_jnt
+    100138: civilian_thumbA_rt_jnt
+    100140: civilian_thumbB_lf_jnt
+    100142: civilian_thumbB_rt_jnt
+    100144: civilian_thumbC_lf_jnt
+    100146: civilian_thumbC_rt_jnt
+    100148: civilian_toe_lf_jnt
+    100150: civilian_toe_rt_jnt
+    100152: civilian_wrist_lf_jnt
+    100154: civilian_wrist_rt_jnt
+    100156: eye_mat
+    100158: eyes_low
+    100160: eyes_lowShape
+    100162: eyes_lowShape1
+    100164: hair_low
+    100166: hair_lowShape
+    100168: head_low
+    100170: head_lowShape
+    100172: head_lowShape0
+    100174: head_mat
+    100176: head_mat0
+    100178: leg_low
+    100180: leg_lowShape
+    100182: leg_lowShape4
+    100184: LOD1
+    100186: pants_mat
+    100188: persp1Shape
+    100190: persp1Shape 1
+    100192: persp1Shape 2
+    100194: persp1Shape1
+    100196: persp1Shape2
+    100198: persp1Shape3
+    100200: teeth_low
+    100202: teeth_lowShape
+    100204: teeth_lowShape2
+    100206: U3DRoot
+    100208: U3DRoot0
+    100210: U3DRoot1
+    100212: //RootNode
+    400000: body_low
+    400002: body_lowShape
+    400004: body_lowShape3
+    400006: body_mat
+    400008: civilian_ankle_lf_jnt
+    400010: civilian_ankle_rt_jnt
+    400012: civilian_ball_lf_jnt
+    400014: civilian_ball_rt_jnt
+    400016: civilian_bicep_lf_jnt
+    400018: civilian_bicep_rt_jnt
+    400020: civilian_clavicle_lf_jnt
+    400022: civilian_clavicle_rt_jnt
+    400024: civilian_COG_c_jnt
+    400026: civilian_elbow_lf_jnt
+    400028: civilian_elbow_rt_jnt
+    400030: civilian_eye_lf_jnt
+    400032: civilian_eye_rt_jnt
+    400034: civilian_eyebrowA_lf_jnt
+    400036: civilian_eyebrowA_rt_jnt
+    400038: civilian_eyebrowB_lf_jnt
+    400040: civilian_eyebrowB_rt_jnt
+    400042: civilian_eyebrowC_lf_jnt
+    400044: civilian_eyebrowC_rt_jnt
+    400046: civilian_eyelidDn_lf_jnt
+    400048: civilian_eyelidDn_rt_jnt
+    400050: civilian_eyelidUp_lf_jnt
+    400052: civilian_eyelidUp_rt_jnt
+    400054: civilian_forearm_lf_jnt
+    400056: civilian_forearm_rt_jnt
+    400058: civilian_head_c_jnt
+    400060: civilian_indexA_lf_jnt
+    400062: civilian_indexA_rt_jnt
+    400064: civilian_indexB_lf_jnt
+    400066: civilian_indexB_rt_jnt
+    400068: civilian_indexC_lf_jnt
+    400070: civilian_indexC_rt_jnt
+    400072: civilian_jaw_c_jnt
+    400074: civilian_knee_lf_jnt
+    400076: civilian_knee_rt_jnt
+    400078: civilian_middleA_lf_jnt
+    400080: civilian_middleA_rt_jnt
+    400082: civilian_middleB_lf_jnt
+    400084: civilian_middleB_rt_jnt
+    400086: civilian_middleC_lf_jnt
+    400088: civilian_middleC_rt_jnt
+    400090: civilian_neck_c_jnt
+    400092: civilian_pelvis_c_jnt
+    400094: civilian_pinkyA_lf_jnt
+    400096: civilian_pinkyA_rt_jnt
+    400098: civilian_pinkyB_lf_jnt
+    400100: civilian_pinkyB_rt_jnt
+    400102: civilian_pinkyC_lf_jnt
+    400104: civilian_pinkyC_rt_jnt
+    400106: civilian_ringA_lf_jnt
+    400108: civilian_ringA_rt_jnt
+    400110: civilian_ringB_lf_jnt
+    400112: civilian_ringB_rt_jnt
+    400114: civilian_ringC_lf_jnt
+    400116: civilian_ringC_rt_jnt
+    400118: civilian_root_jnt
+    400120: civilian_shoulder_lf_jnt
+    400122: civilian_shoulder_rt_jnt
+    400124: civilian_spineA_c_jnt
+    400126: civilian_spineB_c_jnt
+    400128: civilian_spineC_c_jnt
+    400130: civilian_spineD_c_jnt
+    400132: civilian_thigh_lf_jnt
+    400134: civilian_thigh_rt_jnt
+    400136: civilian_thumbA_lf_jnt
+    400138: civilian_thumbA_rt_jnt
+    400140: civilian_thumbB_lf_jnt
+    400142: civilian_thumbB_rt_jnt
+    400144: civilian_thumbC_lf_jnt
+    400146: civilian_thumbC_rt_jnt
+    400148: civilian_toe_lf_jnt
+    400150: civilian_toe_rt_jnt
+    400152: civilian_wrist_lf_jnt
+    400154: civilian_wrist_rt_jnt
+    400156: eye_mat
+    400158: eyes_low
+    400160: eyes_lowShape
+    400162: eyes_lowShape1
+    400164: hair_low
+    400166: hair_lowShape
+    400168: head_low
+    400170: head_lowShape
+    400172: head_lowShape0
+    400174: head_mat
+    400176: head_mat0
+    400178: leg_low
+    400180: leg_lowShape
+    400182: leg_lowShape4
+    400184: LOD1
+    400186: pants_mat
+    400188: persp1Shape
+    400190: persp1Shape 1
+    400192: persp1Shape 2
+    400194: persp1Shape1
+    400196: persp1Shape2
+    400198: persp1Shape3
+    400200: teeth_low
+    400202: teeth_lowShape
+    400204: teeth_lowShape2
+    400206: U3DRoot
+    400208: U3DRoot0
+    400210: U3DRoot1
+    400212: //RootNode
+    4300000: head_mat0
+    4300002: eye_mat
+    4300004: head_mat
+    4300006: body_mat
+    4300008: pants_mat
+    7400000: Take 001
+    7400002: walk2
+    7400004: sit2
+    7400006: sitstand
+    7400008: greet2
+    7400010: idel2
+    9500000: //RootNode
+    13700000: body_mat
+    13700002: eye_mat
+    13700004: head_mat
+    13700006: head_mat0
+    13700008: pants_mat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 160
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: U3DRoot0
+        weight: 1
+      - path: U3DRoot0/persp1Shape
+        weight: 1
+      - path: U3DRoot1
+        weight: 1
+      - path: U3DRoot1/body_mat
+        weight: 1
+      - path: U3DRoot1/eye_mat
+        weight: 1
+      - path: U3DRoot1/head_mat
+        weight: 1
+      - path: U3DRoot1/head_mat0
+        weight: 1
+      - path: U3DRoot1/pants_mat
+        weight: 1
+      - path: U3DRoot1/persp1Shape 1
+        weight: 1
+      - path: U3DRoot1/U3DRoot
+        weight: 1
+      - path: U3DRoot1/U3DRoot/body_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt/civilian_toe_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt/civilian_toe_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_bicep_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_forearm_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt/civilian_indexC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt/civilian_middleC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt/civilian_pinkyC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt/civilian_ringC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt/civilian_thumbC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_bicep_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_forearm_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt/civilian_indexC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt/civilian_middleC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt/civilian_pinkyC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt/civilian_ringC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt/civilian_thumbC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_jaw_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/eyes_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/head_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/leg_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low/body_lowShape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low/eyes_lowShape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low/hair_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low/head_lowShape0
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low/leg_lowShape4
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low/teeth_lowShape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape 2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/teeth_lowShape
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: walk2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: U3DRoot0
+        weight: 1
+      - path: U3DRoot0/persp1Shape
+        weight: 1
+      - path: U3DRoot1
+        weight: 1
+      - path: U3DRoot1/body_mat
+        weight: 1
+      - path: U3DRoot1/eye_mat
+        weight: 1
+      - path: U3DRoot1/head_mat
+        weight: 1
+      - path: U3DRoot1/head_mat0
+        weight: 1
+      - path: U3DRoot1/pants_mat
+        weight: 1
+      - path: U3DRoot1/persp1Shape 1
+        weight: 1
+      - path: U3DRoot1/U3DRoot
+        weight: 1
+      - path: U3DRoot1/U3DRoot/body_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt/civilian_toe_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt/civilian_toe_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_bicep_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_forearm_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt/civilian_indexC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt/civilian_middleC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt/civilian_pinkyC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt/civilian_ringC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt/civilian_thumbC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_bicep_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_forearm_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt/civilian_indexC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt/civilian_middleC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt/civilian_pinkyC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt/civilian_ringC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt/civilian_thumbC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_jaw_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/eyes_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/head_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/leg_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low/body_lowShape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low/eyes_lowShape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low/hair_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low/head_lowShape0
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low/leg_lowShape4
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low/teeth_lowShape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape 2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/teeth_lowShape
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sit2
+      takeName: Take 001
+      firstFrame: 38
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: U3DRoot0
+        weight: 1
+      - path: U3DRoot0/persp1Shape
+        weight: 1
+      - path: U3DRoot1
+        weight: 1
+      - path: U3DRoot1/body_mat
+        weight: 1
+      - path: U3DRoot1/eye_mat
+        weight: 1
+      - path: U3DRoot1/head_mat
+        weight: 1
+      - path: U3DRoot1/head_mat0
+        weight: 1
+      - path: U3DRoot1/pants_mat
+        weight: 1
+      - path: U3DRoot1/persp1Shape 1
+        weight: 1
+      - path: U3DRoot1/U3DRoot
+        weight: 1
+      - path: U3DRoot1/U3DRoot/body_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt/civilian_toe_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt/civilian_toe_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_bicep_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_forearm_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt/civilian_indexC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt/civilian_middleC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt/civilian_pinkyC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt/civilian_ringC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt/civilian_thumbC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_bicep_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_forearm_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt/civilian_indexC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt/civilian_middleC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt/civilian_pinkyC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt/civilian_ringC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt/civilian_thumbC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_jaw_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/eyes_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/head_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/leg_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low/body_lowShape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low/eyes_lowShape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low/hair_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low/head_lowShape0
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low/leg_lowShape4
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low/teeth_lowShape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape 2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/teeth_lowShape
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sitstand
+      takeName: Take 001
+      firstFrame: 71
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: U3DRoot0
+        weight: 1
+      - path: U3DRoot0/persp1Shape
+        weight: 1
+      - path: U3DRoot1
+        weight: 1
+      - path: U3DRoot1/body_mat
+        weight: 1
+      - path: U3DRoot1/eye_mat
+        weight: 1
+      - path: U3DRoot1/head_mat
+        weight: 1
+      - path: U3DRoot1/head_mat0
+        weight: 1
+      - path: U3DRoot1/pants_mat
+        weight: 1
+      - path: U3DRoot1/persp1Shape 1
+        weight: 1
+      - path: U3DRoot1/U3DRoot
+        weight: 1
+      - path: U3DRoot1/U3DRoot/body_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt/civilian_toe_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt/civilian_toe_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_bicep_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_forearm_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt/civilian_indexC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt/civilian_middleC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt/civilian_pinkyC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt/civilian_ringC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt/civilian_thumbC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_bicep_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_forearm_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt/civilian_indexC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt/civilian_middleC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt/civilian_pinkyC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt/civilian_ringC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt/civilian_thumbC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_jaw_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/eyes_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/head_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/leg_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low/body_lowShape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low/eyes_lowShape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low/hair_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low/head_lowShape0
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low/leg_lowShape4
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low/teeth_lowShape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape 2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/teeth_lowShape
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: greet2
+      takeName: Take 001
+      firstFrame: 106
+      lastFrame: 132
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: U3DRoot0
+        weight: 1
+      - path: U3DRoot0/persp1Shape
+        weight: 1
+      - path: U3DRoot1
+        weight: 1
+      - path: U3DRoot1/body_mat
+        weight: 1
+      - path: U3DRoot1/eye_mat
+        weight: 1
+      - path: U3DRoot1/head_mat
+        weight: 1
+      - path: U3DRoot1/head_mat0
+        weight: 1
+      - path: U3DRoot1/pants_mat
+        weight: 1
+      - path: U3DRoot1/persp1Shape 1
+        weight: 1
+      - path: U3DRoot1/U3DRoot
+        weight: 1
+      - path: U3DRoot1/U3DRoot/body_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt/civilian_toe_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt/civilian_toe_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_bicep_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_forearm_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt/civilian_indexC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt/civilian_middleC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt/civilian_pinkyC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt/civilian_ringC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt/civilian_thumbC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_bicep_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_forearm_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt/civilian_indexC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt/civilian_middleC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt/civilian_pinkyC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt/civilian_ringC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt/civilian_thumbC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_jaw_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/eyes_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/head_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/leg_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low/body_lowShape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low/eyes_lowShape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low/hair_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low/head_lowShape0
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low/leg_lowShape4
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low/teeth_lowShape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape 2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/teeth_lowShape
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idel2
+      takeName: Take 001
+      firstFrame: 141
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: U3DRoot0
+        weight: 1
+      - path: U3DRoot0/persp1Shape
+        weight: 1
+      - path: U3DRoot1
+        weight: 1
+      - path: U3DRoot1/body_mat
+        weight: 1
+      - path: U3DRoot1/eye_mat
+        weight: 1
+      - path: U3DRoot1/head_mat
+        weight: 1
+      - path: U3DRoot1/head_mat0
+        weight: 1
+      - path: U3DRoot1/pants_mat
+        weight: 1
+      - path: U3DRoot1/persp1Shape 1
+        weight: 1
+      - path: U3DRoot1/U3DRoot
+        weight: 1
+      - path: U3DRoot1/U3DRoot/body_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_lf_jnt/civilian_knee_lf_jnt/civilian_ankle_lf_jnt/civilian_ball_lf_jnt/civilian_toe_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_pelvis_c_jnt/civilian_thigh_rt_jnt/civilian_knee_rt_jnt/civilian_ankle_rt_jnt/civilian_ball_rt_jnt/civilian_toe_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_bicep_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_forearm_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_indexA_lf_jnt/civilian_indexB_lf_jnt/civilian_indexC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_middleA_lf_jnt/civilian_middleB_lf_jnt/civilian_middleC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_pinkyA_lf_jnt/civilian_pinkyB_lf_jnt/civilian_pinkyC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_ringA_lf_jnt/civilian_ringB_lf_jnt/civilian_ringC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_lf_jnt/civilian_shoulder_lf_jnt/civilian_elbow_lf_jnt/civilian_wrist_lf_jnt/civilian_thumbA_lf_jnt/civilian_thumbB_lf_jnt/civilian_thumbC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_bicep_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_forearm_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_indexA_rt_jnt/civilian_indexB_rt_jnt/civilian_indexC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_middleA_rt_jnt/civilian_middleB_rt_jnt/civilian_middleC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_pinkyA_rt_jnt/civilian_pinkyB_rt_jnt/civilian_pinkyC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_ringA_rt_jnt/civilian_ringB_rt_jnt/civilian_ringC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_clavicle_rt_jnt/civilian_shoulder_rt_jnt/civilian_elbow_rt_jnt/civilian_wrist_rt_jnt/civilian_thumbA_rt_jnt/civilian_thumbB_rt_jnt/civilian_thumbC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eye_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowA_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowB_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyebrowC_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidDn_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_lf_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_eyelidUp_rt_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/civilian_root_jnt/civilian_COG_c_jnt/civilian_spineA_c_jnt/civilian_spineB_c_jnt/civilian_spineC_c_jnt/civilian_spineD_c_jnt/civilian_neck_c_jnt/civilian_head_c_jnt/civilian_jaw_c_jnt
+        weight: 1
+      - path: U3DRoot1/U3DRoot/eyes_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/head_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/leg_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/body_low/body_lowShape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/eyes_low/eyes_lowShape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/hair_low/hair_lowShape
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/head_low/head_lowShape0
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/leg_low/leg_lowShape4
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low
+        weight: 1
+      - path: U3DRoot1/U3DRoot/LOD1/teeth_low/teeth_lowShape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape 2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape1
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape2
+        weight: 1
+      - path: U3DRoot1/U3DRoot/persp1Shape3
+        weight: 1
+      - path: U3DRoot1/U3DRoot/teeth_lowShape
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
